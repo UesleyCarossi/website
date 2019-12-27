@@ -1,0 +1,60 @@
+html,body{
+    width: 100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 80px;
+    background-color: #de2525;
+}
+
+main {
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: #f6f6f6;
+    overflow-y: scroll;
+}
+
+footer {
+    height: 60px;
+    background-color: #c3c3c3;
+}
+
+nav {
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+#banner {
+    background-color: #ebf560;
+}
+
+#services {
+    background-color: #60f560;
+}
+
+#about {
+    background-color: #60e4f5;
+}
+
+#contact {
+    background-color: #6063f5;
+}
+
+#location {
+    background-color: #f560e9;
+}
