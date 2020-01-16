@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="custom-scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="banner.css">
 </head>
 
 <body>
 
 <header>
 <nav class="safe-margin">
-    <img src="logo-branca_200x200.png">
+    <img src="premier-league-logo-png-transparent.png">
     <a href="#banner">Banner</a>
     <a href="#services">Services</a>
     <a href="#about">About</a>
@@ -23,7 +24,34 @@
 
 <main>
 
+    <!-- To improve the transition: https://www.smashingmagazine.com/2012/04/pure-css3-cycling-slideshow/ -->
     <section id="banner">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="img_nature_wide.jpg">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img_snow_wide.jpg">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img_mountains_wide.jpg">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="pager">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+        </div>
+
     </section>
 
     <section id="services">
@@ -44,6 +72,8 @@
     </footer>
 
 </main>
+
+    <script type="text/javascript" src="banner.js"></script>
 
 </body>
 
