@@ -57,7 +57,7 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     font-size: 1em;
-    padding: calc(40px - .5em) 10px calc(40px - .5em) 10px;
+    padding: calc(36px - .5em) 10px calc(36px - .5em) 10px;
 }
 
 nav a:hover {
